@@ -17,7 +17,7 @@ lista_reservas = []
 MAX_RESERVAS = 20
 
 def limpar_tela():
-    os.system("cls" if os.name == 'nt' else 'clear')
+    os.system("cls || clear")
 
 def pausar():
     input("\nPressione Enter para continuar...")
